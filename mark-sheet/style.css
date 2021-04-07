@@ -1,0 +1,47 @@
+body {
+  width: 1240px;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-around; */
+  text-align: center;
+  background-color: lightseagreen;
+}
+
+table {
+  border: 1px solid cyan;
+  text-align: center;
+  margin: 0 auto;
+  outline: none;
+  text-decoration: none;
+  /* border-collapse: collapse; */
+}
+.table-header td {
+  border: 1px solid cyan;
+
+  padding: 10px;
+}
+input {
+  width: 70px;
+  outline: none;
+  text-decoration: none;
+}
+
+.submit-bt {
+  margin-top: 10px;
+  border-radius: 25px;
+  outline: none;
+}
+button:hover {
+  background-color: white;
+}
+#table_2 {
+  background-color: yellow;
+  margin-top: 30px;
+  border-collapse: collapse;
+  /* border: 1px solid red; */
+}
+#table_2 tr td {
+  /* border-bottom: 1px solid red;
+  border-right: 1px solid red; */
+  border: 1px solid red;
+}

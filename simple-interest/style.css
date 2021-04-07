@@ -8,3 +8,6 @@ input {
 }
 div {
 }
+.dark-mode {
+  background-color: black;
+  color: darkgreen;
