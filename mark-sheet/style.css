@@ -45,3 +45,7 @@ button:hover {
   border-right: 1px solid red; */
   border: 1px solid red;
 }
+
+#clearing_data {
+  outline: none;
+}

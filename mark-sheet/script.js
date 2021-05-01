@@ -72,11 +72,32 @@ if(sub_5 ===""|| sub_5<1 ||sub_5>100){
 <td>${sub_4}</td>
 <td>${sub_5}</td>
 <td>${total}</td>
-<td>${average}</td>`;
+<td>${average}</td>
+<td><button  onclick='dataclear(this)' type="reset">clear</button></td> `;
     table_2.appendChild(tr);
 
     clearData();
 
+}
+function dataclear(selected){
+    const table_2 = document.getElementById("table_2");
+   var td =  selected.parentElement;
+  var tr =   td.parentElement;
+    table_2.removeChild(tr);
+
+    // console.log('see', selected);
+    // let td = selected.parentElement;
+    // console.log('td', td);
+    // let tr = td.parentElement;
+    // // console.log('tr', tr);
+
+    // table_2.removeChild(list.childNodes[tr]);
+
+
+//     var parent = document.getElementById("table_2").getElementsByTagName("tr")[];
+//     var child = document.getElementsByTagName("td")[1];
+//  var remove = parent.removechild(child);
+// parent.removeChild(remove);
 }
 
 function clearData() {
