@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+      sentence = "what a man";
+
+let check = sentence.endsWith("such a great fellow");
+console.log(check); 
+
+let check1 = sentence.endsWith(".");
+console.log(check1); 
+
+// case sensitive
+let check2 = sentence.endsWith("great");
+console.log(check2); 
+
+// second argument specifies the portion of string to consider
+let check3 = sentence.endsWith("JavaScript", 21);
+console.log(check3);
+    </script>
+</body>
+
+</html>
